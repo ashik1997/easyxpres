@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "7d9cb8d1-06b1-434e-aa42-e02327b24040",
+		"name": "Sand Box Payment Gateway For Merchant Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23654546",
+		"_collection_link": "https://crimson-firefly-366685.postman.co/workspace/Team-Workspace~7c0cdbd9-0a04-44bc-82aa-374d5f18a1f8/collection/23654546-7d9cb8d1-06b1-434e-aa42-e02327b24040?action=share&source=collection_link&creator=23654546"
+	},
+	"item": [
+		{
+			"name": "GetToken",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-hash",
+						"value": "iRbuoCMiOwQIIXyEvq30l61J+XAq0D/htjKQwiZl4jn7szmMMJTNL7ua0iej2Jtw2ch+D+/uBQ7WgZKcf8hQ8w==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n  \"userName\": \"xyz.eps@gmail.com\", // Your User Name\r\n  \"password\": \"Emon258@\" //Your Password\r\n   \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sandboxpgapi.eps.com.bd/v1/Auth/GetToken",
+					"protocol": "https",
+					"host": [
+						"sandboxpgapi",
+						"eps",
+						"com",
+						"bd"
+					],
+					"path": [
+						"v1",
+						"Auth",
+						"GetToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Initialize",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijg2OGE1YzVkLWVjMGYtNDc2Mi05ODA4LTg2NGZhMjkxNDQwYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJ4eXouZXBzQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dpdmVubmFtZSI6Inh5eiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6Inh5ei5lcHNAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiU3lzdGVtTWVyY2hhbnQiLCJleHAiOjE3Mjc2Nzg5ODYsImlzcyI6Inh5ei5jb20iLCJhdWQiOiJ4eXouY29tIn0.xGTvlrlm3GwZ6WzvBzS-3pjVEveue7CKfi-8r9_BaVs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-hash",
+						"value": "P0jzXSQU+ea41Ho+LX6UTgikdMCX8UeqQyZpcm+YoI+jWvWewDIHYXnF8Ji/2rv0xkJxJR9avLoVzpCWUEjTTg==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n  \"storeId\": \"35b518f6-aab7-4af1-b16c-335052e9a55c\",//Your Store ID\r\n  \"merchantTransactionId\": \"20456394669871\", //Every Time Unique merchant Transaction Id\r\n  \"CustomerOrderId\":\"Order1256882\",\r\n  \"transactionTypeId\": 10,\r\n  \"financialEntityId\": 0,\r\n  \"transitionStatusId\": 0,\r\n  \"totalAmount\": 1,\r\n  \"ipAddress\": \"string\",\r\n  \"version\": \"string\",\r\n  \"successUrl\": \"https://www.eps.com.bd/\",\r\n  \"failUrl\": \"https://www.eps.com.bd/\",\r\n  \"cancelUrl\": \"https://www.eps.com.bd/\",\r\n  \"customerName\": \"string\",\r\n  \"customerEmail\": \"string\",\r\n  \"customerAddress\": \"string\",\r\n  \"customerAddress2\": \"string\",\r\n  \"customerCity\": \"string\",\r\n  \"customerState\": \"string\",\r\n  \"customerPostcode\": \"string\",\r\n  \"customerCountry\": \"string\",\r\n  \"customerPhone\": \"string\",\r\n  \"shipmentName\": \"string\",\r\n  \"shipmentAddress\": \"string\",\r\n  \"shipmentAddress2\": \"string\",\r\n  \"shipmentCity\": \"string\",\r\n  \"shipmentState\": \"string\",\r\n  \"shipmentPostcode\": \"string\",\r\n  \"shipmentCountry\": \"string\",\r\n  \"valueA\": \"string\",\r\n  \"valueB\": \"string\",\r\n  \"valueC\": \"string\",\r\n  \"valueD\": \"string\",\r\n  \"shippingMethod\": \"string\",\r\n  \"noOfItem\": \"string\",\r\n  \"productName\": \"string\",\r\n  \"productProfile\": \"string\",\r\n  \"productCategory\": \"string\",\r\n  \"ProductList\":\r\n   [\r\n    {\r\n        \"ProductName\": \"Product name 1\",\r\n        \"NoOfItem\": \"2\",\r\n        \"ProductProfile\": \"ProductProfile 1\",\r\n        \"ProductCategory\": \"Product Image URl\",\r\n        \"ProductPrice\": \"105\"\r\n    },\r\n    {\r\n        \"ProductName\": \"Product name 2\",\r\n        \"NoOfItem\": \"7\",\r\n        \"ProductProfile\": \"Product Image URl\",\r\n        \"ProductCategory\": \"ProductCategory 2\",\r\n        \"ProductPrice\": \"210\"\r\n    }\r\n   ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sandboxpgapi.eps.com.bd/v1/EPSEngine/InitializeEPS",
+					"protocol": "https",
+					"host": [
+						"sandboxpgapi",
+						"eps",
+						"com",
+						"bd"
+					],
+					"path": [
+						"v1",
+						"EPSEngine",
+						"InitializeEPS"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CheckMerchantTransactionStatus",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijg2OGE1YzVkLWVjMGYtNDc2Mi05ODA4LTg2NGZhMjkxNDQwYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJ4eXouZXBzQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dpdmVubmFtZSI6Inh5eiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6Inh5ei5lcHNAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiU3lzdGVtTWVyY2hhbnQiLCJleHAiOjE3Mjc2Nzg5ODYsImlzcyI6Inh5ei5jb20iLCJhdWQiOiJ4eXouY29tIn0.xGTvlrlm3GwZ6WzvBzS-3pjVEveue7CKfi-8r9_BaVs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-hash",
+						"value": "P0jzXSQU+ea41Ho+LX6UTgikdMCX8UeqQyZpcm+YoI+jWvWewDIHYXnF8Ji/2rv0xkJxJR9avLoVzpCWUEjTTg==",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://sandboxpgapi.eps.com.bd/v1/EPSEngine/CheckMerchantTransactionStatus?merchantTransactionId=20456394669871",
+					"protocol": "https",
+					"host": [
+						"sandboxpgapi",
+						"eps",
+						"com",
+						"bd"
+					],
+					"path": [
+						"v1",
+						"EPSEngine",
+						"CheckMerchantTransactionStatus"
+					],
+					"query": [
+						{
+							"key": "merchantTransactionId",
+							"value": "20456394669871"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

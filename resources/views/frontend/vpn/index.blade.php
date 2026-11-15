@@ -1,0 +1,13 @@
+<x-frontend-layout>
+    <x-slot:metaTitle>VPN Accounts · EasyXpres</x-slot:metaTitle>
+    <x-slot:header><p class="text-[10px] font-bold uppercase tracking-[.18em] text-teal-100">Secure access</p><h1 class="truncate text-lg font-extrabold text-white">VPN Accounts</h1></x-slot:header>
+
+    <div class="mb-6 flex flex-col justify-between gap-4 sm:flex-row sm:items-end"><div><span class="ux-eyebrow">Available now</span><h2 class="ux-title mt-1">Choose your VPN</h2><p class="ux-muted mt-2 text-sm">Credentials become visible immediately after purchase.</p></div><a href="{{ route('my.vpn') }}" class="ux-secondary-button"><i class="fas fa-history"></i> My VPN</a></div>
+    <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        @forelse ($vpns as $vpn)
+            <article class="ux-card-interactive flex flex-col p-5"><div class="flex items-start justify-between gap-3"><div class="flex items-center gap-3"><span class="ux-icon-tile ux-icon-tile--blue"><i class="fas fa-shield-halved"></i></span><div><h3 class="text-lg font-extrabold text-slate-900">{{ $vpn->vpnName->name }}</h3><p class="mt-1 text-xs font-semibold text-emerald-600"><i class="fas fa-circle mr-1 text-[6px]"></i>Available now</p></div></div><span class="rounded-xl bg-slate-100 px-2.5 py-1 text-xs font-bold text-slate-500">#{{ str_pad($vpn->id, 4, '0', STR_PAD_LEFT) }}</span></div><div class="my-5 grid grid-cols-2 gap-3"><div class="rounded-2xl bg-slate-50 p-3"><p class="text-[10px] font-bold uppercase tracking-wide text-slate-400">Valid until</p><p class="mt-1 text-sm font-extrabold text-slate-800">{{ $vpn->expire_date->format('d M Y') }}</p></div><div class="rounded-2xl bg-slate-50 p-3"><p class="text-[10px] font-bold uppercase tracking-wide text-slate-400">Remaining</p><p class="mt-1 text-sm font-extrabold text-slate-800">{{ today()->diffInDays($vpn->expire_date) }} days</p></div></div><div class="mt-auto flex items-end justify-between gap-3"><div><p class="text-xs text-slate-500">One-time payment</p><p class="mt-1 text-xl font-extrabold text-teal-700">MVR {{ number_format((float) $vpn->payment, 2) }}</p></div><form action="{{ route('vpn.buy') }}" method="POST" onsubmit="return confirm('Buy this VPN account for MVR {{ number_format((float) $vpn->payment, 2) }}?')">@csrf<input type="hidden" name="vpn_id" value="{{ $vpn->id }}"><button type="submit" class="ux-primary-button px-4"><i class="fas fa-lock text-xs"></i> Buy</button></form></div></article>
+        @empty
+            <div class="ux-card col-span-full p-10 text-center"><i class="fas fa-shield-halved text-3xl text-teal-600"></i><h3 class="mt-3 font-extrabold text-slate-900">No VPN accounts available</h3></div>
+        @endforelse
+    </div>
+</x-frontend-layout>
