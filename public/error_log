@@ -1,0 +1,539 @@
+[12-Feb-2026 21:20:18 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[12-Feb-2026 21:20:18 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[12-Feb-2026 21:20:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/easyxpres/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/easyxpres/public_html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/easyxpres/public_html/public/index.php on line 13
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/platform_check.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 25
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/ClassLoader.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 12
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/autoload_static.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 31
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-mbstring/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php on line 15
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-intl-normalizer/bootstrap.php on line 15
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-ctype/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-ctype/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-ctype/bootstrap.php on line 15
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-intl-grapheme/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-intl-grapheme/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-intl-grapheme/bootstrap.php on line 15
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/string/Resources/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-intl-idn/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-php80/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-php83/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-php83/bootstrap81.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-php83/bootstrap.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-php85/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../nunomaduro/termwind/src/Functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/clock/Resources/now.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-uuid/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-uuid/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-uuid/bootstrap.php on line 19
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/translation/Resources/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../guzzlehttp/guzzle/src/functions_include.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/guzzlehttp/guzzle/src/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/guzzlehttp/guzzle/src/functions_include.php on line 5
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/prompts/src/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../psy/psysh/src/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../ramsey/uuid/src/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Collections/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Collections/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Events/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Filesystem/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Log/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Support/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Support/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../mockery/mockery/library/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../mockery/mockery/library/Mockery.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../nunomaduro/collision/src/Adapters/Phpunit/Autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../phpunit/phpunit/src/Runner/Version.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../nunomaduro/collision/src/Adapters/Phpunit/Subscribers/EnsurePrinterIsRegisteredSubscriber.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../phpunit/phpunit/src/Event/Events/Application/StartedSubscriber.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../phpunit/phpunit/src/Event/Subscriber.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[17-Feb-2026 21:05:56 UTC] PHP Warning:  require_once(/home/easyxpres/public_html/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 16
+[17-Feb-2026 21:05:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/easyxpres/public_html/public/../bootstrap/app.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/easyxpres/public_html/public/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/easyxpres/public_html/public/index.php on line 16
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/platform_check.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 25
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/ClassLoader.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 12
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/autoload_static.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 31
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-mbstring/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php on line 15
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-intl-normalizer/bootstrap.php on line 15
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-ctype/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-ctype/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-ctype/bootstrap.php on line 15
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-intl-grapheme/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-intl-grapheme/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-intl-grapheme/bootstrap.php on line 15
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/string/Resources/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-intl-idn/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-php80/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-php83/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-php83/bootstrap81.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-php83/bootstrap.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-php85/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../nunomaduro/termwind/src/Functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/clock/Resources/now.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/polyfill-uuid/bootstrap.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/symfony/polyfill-uuid/bootstrap80.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/symfony/polyfill-uuid/bootstrap.php on line 19
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../symfony/translation/Resources/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../guzzlehttp/guzzle/src/functions_include.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/guzzlehttp/guzzle/src/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/guzzlehttp/guzzle/src/functions_include.php on line 5
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/prompts/src/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../psy/psysh/src/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../ramsey/uuid/src/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Collections/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Collections/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Events/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Filesystem/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Foundation/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../fakerphp/faker/src/Faker/Factory.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Log/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Support/functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../laravel/framework/src/Illuminate/Support/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../mockery/mockery/library/helpers.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../mockery/mockery/library/Mockery.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../nunomaduro/collision/src/Adapters/Phpunit/Autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../phpunit/phpunit/src/Runner/Version.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../nunomaduro/collision/src/Adapters/Phpunit/Subscribers/EnsurePrinterIsRegisteredSubscriber.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../phpunit/phpunit/src/Event/Events/Application/StartedSubscriber.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  include(/home/easyxpres/public_html/vendor/composer/../phpunit/phpunit/src/Event/Subscriber.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/ClassLoader.php on line 576
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require(/home/easyxpres/public_html/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/vendor/composer/autoload_real.php on line 41
+[19-Feb-2026 20:39:45 UTC] PHP Warning:  require_once(/home/easyxpres/public_html/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 16
+[19-Feb-2026 20:39:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/easyxpres/public_html/public/../bootstrap/app.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/easyxpres/public_html/public/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/easyxpres/public_html/public/index.php on line 16
+[25-Feb-2026 19:50:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[25-Feb-2026 19:50:56 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[25-Feb-2026 19:50:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/easyxpres/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/easyxpres/public_html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/easyxpres/public_html/public/index.php on line 13
+[06-Mar-2026 13:58:23 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[06-Mar-2026 13:58:23 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[06-Mar-2026 13:58:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/easyxpres/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/easyxpres/public_html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/easyxpres/public_html/public/index.php on line 13
+[06-Mar-2026 13:58:26 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[06-Mar-2026 13:58:26 UTC] PHP Warning:  require(/home/easyxpres/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/easyxpres/public_html/public/index.php on line 13
+[06-Mar-2026 13:58:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/easyxpres/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/easyxpres/public_html/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/easyxpres/public_html/public/index.php on line 13
+[21-Apr-2026 14:54:29 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961
+[21-Apr-2026 14:54:31 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961
+[21-Apr-2026 14:54:34 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961
+[21-Apr-2026 14:54:36 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961
+[21-Apr-2026 14:54:38 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961
+[21-Apr-2026 14:54:40 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961
+[21-Apr-2026 14:54:45 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961
+[21-Apr-2026 14:54:49 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961
+[21-Apr-2026 14:54:52 Indian/Maldives] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(1580): Illuminate\Foundation\Application->make()
+#5 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(239): Illuminate\Container\Container->offsetGet()
+#6 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(210): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(17): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(915): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(890): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(815): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(706): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(594): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/easyxpres/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 961

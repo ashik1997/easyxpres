@@ -1,0 +1,8 @@
+/.env
+/EPSUpdate.md
+/EsayXpres 12/Live_Credentials( EsayXpres)/Live_Credentials(EsayXpres).docx
+/.env.*
+!/.env.example
+/.phpunit.result.cache
+/public/apk/*.apk
+/easyxpress.zip
